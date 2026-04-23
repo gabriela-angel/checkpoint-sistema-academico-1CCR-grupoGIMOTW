@@ -8,21 +8,21 @@ void calculo_media(void){
 }
 
 void parte_3(void) {
-int a, b, c;
-
-printf("a: \n");
-scanf("%d", &a);
-
-printf("b: \n");
-scanf("%d", &b);
-
-printf("c: \n");
-scanf("%d", &c);
-
-if (b >= 0)
-    print("f'(x) = %dx + b", (2 * a), b);
-else
-    print("f'(x) = %dx - b", (2 * a), -b);
+    int a, b, c;
+    
+    printf("a: \n");
+    scanf("%d", &a);
+    
+    printf("b: \n");
+    scanf("%d", &b);
+    
+    printf("c: \n");
+    scanf("%d", &c);
+    
+    if (b >= 0)
+        print("f'(x) = %dx + b", (2 * a), b);
+    else
+        print("f'(x) = %dx - b", (2 * a), -b);
 }
 
 int main() {
