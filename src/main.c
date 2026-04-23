@@ -36,6 +36,8 @@ scanf("%d", &a);
 
 printf("c: \n");
 scanf("%d", &a);
+
+int derivada = (2 * a * x) + b;
 }
 
 int main() {
