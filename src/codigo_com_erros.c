@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h>
 
 int main() {
     float nota1, nota2, media
@@ -16,6 +16,6 @@ int main() {
     } else {
         printf("Aluno reprovado\n");
     }
-
+    printf("Hello");
     return 0;
 }
