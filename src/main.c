@@ -24,7 +24,20 @@ void calcula_derivada(void) {
     else
         print("f'(x) = %dx - b", (2 * a), -b);
 }
+void verificar_situacao() {
+    float media;
 
+    printf("Digite a media do aluno: ");
+    scanf("%f", &media);
+
+    if (media >= 6) {
+        printf("APROVADO\n");
+    } else if (media >= 5) {
+        printf("RECUPERACAO\n");
+    } else {
+        printf("REPROVADO\n");
+    }
+}
 int main() {
     
     int opcao;
@@ -41,7 +54,7 @@ int main() {
         while(getchar() != '\n'); 
         continue;
         }
-    
+
         switch(opcao){
             case 1: // INSERIR NOTAS
             break;
