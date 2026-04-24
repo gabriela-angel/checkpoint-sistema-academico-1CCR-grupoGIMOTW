@@ -9,11 +9,11 @@ int main() {
     scanf("%f", &nota1);
 
     printf("Digite a segunda nota: ");
-    scanf("%f", nota2);
+    scanf("%f", &nota2); //Adiciona o '&'
 //Parênteses nas variáveis de soma
     media = (nota1 + nota2) / 2;
 //Arrumamos as condições
-    if (5 <= media <= 10) {
+    if (5 <= media) {
         printf("Aluno aprovado\n");
     } else {
         printf("Aluno reprovado\n");
